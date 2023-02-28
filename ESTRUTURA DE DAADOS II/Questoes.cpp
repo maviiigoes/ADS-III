@@ -103,7 +103,7 @@ int main() {
 /*
 ----------- Saída -----------
 <<<4>6>7<31>>
-Valor encontrado: 4
+Valor : 4
 Altura: 2
 Quantidade de nos: 4
 Quantidade de folhas: 2
