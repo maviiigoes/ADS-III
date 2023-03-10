@@ -18,7 +18,7 @@ Node* criarNO(int value) {
 }
 
 
-int EhIgual(Node* root1, Node* root2) {
+int isEqual(Node* root1, Node* root2) {
     
     if (root1 == NULL && root2 == NULL) {
         return 1;
