@@ -1,0 +1,18 @@
+.grad_radial {
+    background-image: radial-gradient(red, yellow);
+}
+
+.grad_cone {
+    background-image: conic-gradient(red, yellow, green);
+}
+
+h1{
+    color:brown;
+    font-family:Arial ;
+    
+}
+
+h2{
+    color: darkgreen;
+    font-family:Arial;
+}
