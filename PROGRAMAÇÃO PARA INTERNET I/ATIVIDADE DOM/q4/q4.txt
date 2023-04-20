@@ -1,0 +1,5 @@
+ O textContent retorna apenas o conteúdo de texto do elemento, ignorando qualquer marcação HTML, enquanto innerHTML retorna o conteúdo completo do elemento, incluindo todo o HTML interno.
+
+
+
+
