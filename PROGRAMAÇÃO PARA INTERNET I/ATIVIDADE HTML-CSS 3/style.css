@@ -1,0 +1,45 @@
+
+h1{
+    text-align:  center;
+    color: rgb(227, 228, 230);
+    background-color: brown
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(227, 66, 66);
+}
+
+.algarismos{
+    background-color: rgb(206, 189, 222);
+}
+
+.placa{
+    background-color: aquamarine;
+}
+
+.emoji{
+    background-color: rgb(187, 207, 243);
+}
+
+.livro{
+    background-color: darkgoldenrod;
+}
+
+
+ol {
+    list-style-type: upper-roman;
+}
+
+li {
+    color: rgb(3, 0, 94);
+}
+
+div{
+    width: 50%;
+    margin-left: 25%;
+}
+
+body{
+    background-color: darksalmon;
+}
