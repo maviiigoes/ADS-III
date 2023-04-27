@@ -1,0 +1,23 @@
+.somar{
+    margin-top: 50%;
+    width: 800px;
+    margin: 0px auto;
+    background-color: rgb(149, 194, 105)
+      
+}
+
+.resultado{
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+label{
+    text-align: center;
+   
+    margin-left: 30%;
+}
+
+button{
+    margin-left: 380px;
+}
