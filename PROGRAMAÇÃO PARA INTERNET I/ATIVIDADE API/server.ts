@@ -1,7 +1,7 @@
 import express from "express"
-import { Microblog, Post } from "./Q1"
-import { request } from "http"
-const Microblog_repository = new Microblog()
+import MicroblogPersistente, {Post } from "./Q1"
+
+const Microblog_repository = new  MicroblogPersistente()
 const app = express()
 app.get('/',(request, response)=>{
     const posts = Microblog_repository.retrieveAll()
@@ -74,10 +74,10 @@ app.patch('/post/:id', async(request, response)=>   {
     );
 
 
-app.patch('/posts/:id/like',(request, response) => {
+app.patch('/posts/:id/like',async(request, response) => {
     const id = parseInt(request.params.id);
 
-    const post =  Microblog_repository.retrieve(id);
+    const post =  await Microblog_repository.retrieve(id);
     if (!post) {
         return response.status(404).json({ message: 'Post não encontrado!' });
     }
